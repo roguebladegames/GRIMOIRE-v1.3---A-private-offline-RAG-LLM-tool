@@ -1,0 +1,29 @@
+GRIMOIRE — portable app
+========================
+
+Location:  (this folder)\GRIMOIRE.exe
+
+Before first run
+----------------
+1. Install Ollama from https://ollama.com and keep it running.
+2. Pull the minimum models (terminal):
+
+     ollama pull mistral
+     ollama pull nomic-embed-text
+
+3. Double-click GRIMOIRE.exe
+4. On the LLM setup screen:
+     - pick chat + embedding models
+     - optional: SYSTEM PROMPT to edit Mothman's directive
+     - Continue
+5. Choose your documents folder → check files → Index → chat
+
+Notes
+-----
+- Python is already bundled in this folder. You do not need a separate
+  Python install to run the app.
+- Keep this whole folder together; do not move only GRIMOIRE.exe.
+- Supported files: .pdf  .txt  .md  .docx  .csv
+- Re-open model setup anytime with "LLM models…"
+- Edit the assistant directive anytime with "SYSTEM PROMPT"
+- See README.txt for full instructions.
