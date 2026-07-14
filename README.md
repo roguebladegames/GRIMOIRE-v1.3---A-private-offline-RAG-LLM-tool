@@ -1,7 +1,7 @@
 # GRIMOIRE-v1.3---A-private-offline-RAG-LLM-tool
 GRIMOIRE is a fully local, offline desktop application for searching and chatting with your personal documents. It indexes your files into a local vector store and uses Ollama (with Mistral) to generate grounded answers — no cloud, no data leaving your machine. It is designed as a portable app — just unzip and run. No Python installation required.
 
-Originally started building this to handle my own private data and projects without the user of cloudes or subscriptions to talk to my docs. 
+Originally started building this to handle my own private data and projects without the user of clouds or subscriptions to talk to my docs. 
 As a QA professional, this tool is intended to be used as a way to identify gaps in test coverage, documentation, and even make suggestions for improvements.
 
 GRIMOIRE can be used for ANY purposes. Private data, finances, project details, etc... Whatever you feed GRIM will becomes it's brain, you have full control of the system prompt to decided how efficient it is.
